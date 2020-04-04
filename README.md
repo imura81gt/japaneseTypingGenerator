@@ -59,9 +59,13 @@ Result
 
 ### e.g. "Tシャツ　赤色　半袖"
 
+Run command
+
 ```
 echo "Tシャツ　赤色　半袖" | go run main.go
 ```
+
+Result
 
 ```
 ｔ
