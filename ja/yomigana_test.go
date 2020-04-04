@@ -30,6 +30,7 @@ func TestKatakanaYomigana(t *testing.T) {
 		{keyword: "大器晩成", expected: "タイキバンセイ"},
 		{keyword: "スーパーグレートゴルファー", expected: "スーパーグレートゴルファー"},
 		{keyword: "すもももももももものうち", expected: "スモモモモモモモモノウチ"},
+		{keyword: "防風", expected: "ボウフウ"},
 		// {keyword: "築地銀だこ", expected: "ツキジギンダコ"}, // 商標(?) need to use user dictionary: 築(チク) / 地銀(チギン) / だこ(ダコ)
 		// {keyword: "錦織圭", expected: "ニシコリケイ""}, // 人名 need to use user dictionary: 錦織(ニシキオリ) / 圭(ケイ)
 	}

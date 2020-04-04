@@ -27,7 +27,7 @@ func KatakanaYomigana(keyword string) string {
 			continue
 		}
 		features := token.Features()
-		yomi := features[len(features)-1]
+		yomi := features[len(features)-2]
 		if yomi == "*" {
 			yomi = token.Surface
 		}
