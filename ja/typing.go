@@ -21,14 +21,15 @@ func Do(keyword string) []string {
 				tl = append(tl, t)
 			}
 			tl = append(tl, k)
+			te = k
 		} else {
 			for _, t := range Typing(h) {
 				tl = append(tl, te+"　"+t)
 			}
 			tl = append(tl, te+"　"+k)
+			te = te + "　" + k
 
 		}
-		te = k
 	}
 	// var t = Typing(h)
 	return tl
