@@ -10,6 +10,7 @@ func TestHiragana(t *testing.T) {
 		{keyword: "タイキバンセイ", expected: "たいきばんせい"},
 		{keyword: "スーパーグレートゴルファー", expected: "すーぱーぐれーとごるふぁー"},
 		{keyword: "すもももももももものうち", expected: "すもももももももものうち"},
+		// KatakanaToHiragana cannot convert belows
 		{keyword: "漢字", expected: "漢字"},
 		{keyword: "abc", expected: "abc"},
 		{keyword: "ABC", expected: "abc"},
