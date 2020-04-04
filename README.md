@@ -34,9 +34,13 @@ Result
 
 ### e.g. "靴　黄色"
 
+Run command
+
 ```
 echo "靴　黄色" | go run main.go
 ```
+
+Result
 
 ```
 ｋ
